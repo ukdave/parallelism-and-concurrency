@@ -19,3 +19,17 @@ Requirements:
    500,500 (1 + 2 + … + 1000).
 6. How about calling it a million times, with 100,000 threads? The answer should be 500,000,500,000, but it shouldn’t
    take much longer to run.
+
+## Challenge 2: blocking buffer
+
+Imagine you have a bounded buffer that can hold a limited number of items. You have two types of threads – producers
+and consumers. Producers produce items and put them into the buffer, while consumers take items out of the buffer and
+consume them. However, producers must wait if the buffer is full, and consumers must wait if the buffer is empty.
+
+Requirements:
+
+1. Implement a bounded buffer with a fixed size.
+2. Create producer threads that generate items and put them into the buffer.
+3. Create consumer threads that take items from the buffer and consume them.
+4. Ensure proper synchronisation between producers and consumers so that producers wait if the buffer is full and
+   consumers wait if the buffer is empty.
