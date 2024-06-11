@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "name": "parallelism-and-concurrency",
+      "path": ".",
+    },
+    {
+      "name": "blocking_buffer",
+      "path": "blocking_buffer",
+    },
+    {
+      "name": "shared_counter",
+      "path": "shared_counter",
+    },
+  ],
+  "settings": {
+    "files.exclude": {
+      "blocking_buffer": true,
+      "shared_counter": true,
+    },
+  },
+}
