@@ -12,11 +12,16 @@
       "name": "shared_counter",
       "path": "shared_counter",
     },
+    {
+      "name": "ractors",
+      "path": "ractors",
+    },
   ],
   "settings": {
     "files.exclude": {
       "blocking_buffer": true,
       "shared_counter": true,
+      "ractors": true,
     },
   },
 }
