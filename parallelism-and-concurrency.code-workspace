@@ -13,6 +13,10 @@
       "path": "shared_counter",
     },
     {
+      "name": "fibres",
+      "path": "fibres",
+    },
+    {
       "name": "ractors",
       "path": "ractors",
     },
@@ -21,6 +25,7 @@
     "files.exclude": {
       "blocking_buffer": true,
       "shared_counter": true,
+      "fibres": true,
       "ractors": true,
     },
   },
